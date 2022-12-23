@@ -5,7 +5,6 @@ import streamlit as st
 def write():
     """Used to write the about page in the app.py file"""
     st.title("Dr. Rauan Akylzhanov")
-    st.markdown("<style> ul {display: none;} </style>", unsafe_allow_html=True)
     st.markdown(
         """
 **Software Engineer/Machine Learning Systems **

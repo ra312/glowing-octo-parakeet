@@ -14,13 +14,7 @@ PAGES = {
 
 def main():
     """Main function of App"""
-    st.sidebar.title("Navigation")
-    selection = st.sidebar.radio("Go to", list(PAGES.keys()))
-
-    page = PAGES[selection]
-
-    with st.spinner(f"Loading {selection} ..."):
-        ast.write_page(page)
+    ast.write_page(PAGES["About"])
 
 
 if __name__ == "__main__":

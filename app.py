@@ -1,6 +1,6 @@
 """_summary_
 """
-import pages.about as about
+import about
 import resources.ast as ast
 
 

@@ -6,15 +6,15 @@ def write():
     """Used to write the about page in the app.py file"""
     st.title("Dr. Rauan Akylzhanov")
     st.markdown(
-    """
+        """
 **Software Engineer/Machine Learning Systems **
 
 [[**Email**](mailto:akylzhanov.r@gmail.com)
 """,
-            unsafe_allow_html=True,
-        )
+        unsafe_allow_html=True,
+    )
     st.markdown(
-    """Experience
+        """Experience
 ----------
 
 **Competera Pricing Platform, 2021-present:**
@@ -57,13 +57,14 @@ taught introductory courses on Data Science topics:
 **Education**
 
 - 2014-2018 PhD in Mathematics, Imperial College, London
+- Doris Chen Merit Award for exceptional research
 - 2007-2012 Specialist in Computer Science, Moscow State University, Moscow, With Honours computer systems architecture, object-oriented-programming, computationall statistics, high-performance distributed computing
 - 2014-2017 Imperial College Data Science Society and Machine Learning Society training in essential Data Science topics, platform for interaction between Imperial College and industry, hackathons
 
 """,
-            unsafe_allow_html=True,
-        )
-        
+        unsafe_allow_html=True,
+    )
+
 
 if __name__ == "__main__":
     write()

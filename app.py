@@ -1,9 +1,9 @@
-### Main page for streamlit resume
+# Main page for streamlit resume
 import streamlit as st
 import pages.about
 import pages.projects
 import pages.edu
-
+import pages.pdf
 import resources.ast as ast
 
 PAGES = {
@@ -21,7 +21,6 @@ def main():
 
     with st.spinner(f"Loading {selection} ..."):
         ast.write_page(page)
-
 
 
 if __name__ == "__main__":

@@ -1,20 +1,13 @@
-# Main page for streamlit resume
-import streamlit as st
-import pages.about
-import pages.projects
-import pages.edu
-import pages.pdf
-import resources.ast as ast
-
-PAGES = {
-    "About": pages.about,
-    "Education": pages.edu,
-}
+"""_summary_
+"""
+from resources import ast
+import pages
 
 
 def main():
     """Main function of App"""
-    ast.write_page(PAGES["About"])
+
+    ast.write_page(pages.about)
 
 
 if __name__ == "__main__":

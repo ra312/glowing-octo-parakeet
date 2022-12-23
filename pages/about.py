@@ -57,7 +57,7 @@ taught introductory courses on Data Science topics:
 **Education**
 
 - 2014-2018 PhD in Mathematics, Imperial College, London
-- Doris Chen Merit Award for exceptional research
+- [Doris Chen Merit Award](#DorisChenMeritAward)) for exceptional research
 - 2007-2012 Specialist in Computer Science, Moscow State University, Moscow, With Honours computer systems architecture, object-oriented-programming, computationall statistics, high-performance distributed computing
 - 2014-2017 Imperial College Data Science Society and Machine Learning Society training in essential Data Science topics, platform for interaction between Imperial College and industry, hackathons
 

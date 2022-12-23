@@ -14,7 +14,7 @@ def displayPDF(file):
     )
 
     # Displaying File
-    st.header("pdf")
+    st.header("DorisChenMeritAward")
     st.markdown(pdf_display, unsafe_allow_html=True)
 
 
